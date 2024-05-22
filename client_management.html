@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Management</title>
+    <link rel="stylesheet" href="style_client.css">
+</head>
+
+<body>
+    <div class="crm-container">
+        <h1>Client Management System</h1>
+        <p>Add board description</p>
+        <div class="crm-header">
+            <select>
+                <option>Main Table</option>
+                <!-- Other options can be added here -->
+            </select>
+            <button class="new-item">New Item</button>
+            <input type="text" placeholder="Search / Filter Board">
+        </div>
+        <div class="board">
+            <div class="board-section">
+                <h2 class="section-title incoming">Incoming leads</h2>
+                <table class="crm-table">
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Subitems</th>
+                            <th>Sales Person</th>
+                            <th>Negotiation</th>
+                            <th>Plan</th>
+                            <th>Company Size</th>
+                            <th>POC</th>
+                            <th>Email</th>
+                            <th>Address</th>
+                            <th>Phone</th>
+                            <th>World Clock</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Nike</td>
+                            <td>3</td>
+                            <td><img src="images/avatar1.png" alt="Sales Person"></td>
+                            <td>In progress</td>
+                            <td>Trial</td>
+                            <td>0 - 250</td>
+                            <td>Alex</td>
+                            <td>lea@monday.com</td>
+                            <td>New York, NY, USA</td>
+                            <td>+39 331 ...</td>
+                            <td>01:21 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="board-section">
+                <h2 class="section-title active">Active leads</h2>
+                <table class="crm-table">
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Subitems</th>
+                            <th>Sales Person</th>
+                            <th>Negotiation</th>
+                            <th>Plan</th>
+                            <th>Company Size</th>
+                            <th>POC</th>
+                            <th>Email</th>
+                            <th>Address</th>
+                            <th>Phone</th>
+                            <th>World Clock</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Facebook</td>
+                            <td>2</td>
+                            <td><img src="images/avatar2.png" alt="Sales Person"></td>
+                            <td>Won</td>
+                            <td>Basic</td>
+                            <td>1000 +</td>
+                            <td>James</td>
+                            <td>laura@monday.com</td>
+                            <td>Madrid, Spain</td>
+                            <td>+33 1 43 ...</td>
+                            <td>01:21 PM</td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <button class="back-button" onclick="location.href='index.html'">Back to Home</button>
+    </div>
+</body>
+
+</html>
